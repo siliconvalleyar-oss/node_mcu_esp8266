@@ -1,0 +1,44 @@
+# ESP8266/NodeMCU project
+# Build outputs
+build/
+output/
+*.bin
+*.elf
+*.map
+*.hex
+*.out
+
+# SDK generated
+ESP8266_NONOS_SDK/
+esp-at/build/
+esp-at/out/
+
+# Flash packages
+*.zip
+at_flash_pkg/
+at_flash_pkg_full.zip
+esp8266_at_firmware_4mb.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+temp/
+*.tmp
